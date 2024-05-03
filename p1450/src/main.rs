@@ -25,7 +25,7 @@ impl Solution {
 }
 
 impl Solution {
-    // Opinion: it's okay but the indexation with square brackets in Rust is checked at runtime
+    // Opinion: it's okay but the indexation with square brackets in Rust is checked at runtime, so the solution is suboptimal
     // Note for newbies: the last expression is returned without the need to use the `return` keyword
     pub fn busy_student0(start_time: Vec<i32>, end_time: Vec<i32>, query_time: i32) -> i32 {
         let mut count = 0;
